@@ -1,0 +1,14 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey"],
+      "responses": ["Hello! How can I help you?"]
+    },
+    {
+      "tag": "admission",
+      "patterns": ["How to apply?", "Admission process"],
+      "responses": ["You can apply online through the college website."]
+    }
+  ]
+}
