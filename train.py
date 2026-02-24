@@ -18,6 +18,7 @@ for intent in data["intents"]:
 vectorizer = TfidfVectorizer()
 X = vectorizer.fit_transform(patterns)
 
+
 model = LogisticRegression()
 model.fit(X, tags)
 
