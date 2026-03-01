@@ -2,13 +2,160 @@
   "intents": [
     {
       "tag": "greeting",
-      "patterns": ["Hi", "Hello", "Hey"],
-      "responses": ["Hello! How can I help you?"]
+      "patterns": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Good morning",
+        "Good evening",
+        "Is anyone there?",
+        "Can you help me?",
+        "Hello bot"
+      ],
+      "responses": [
+        "Hello! How can I assist you today?",
+        "Hi there! What can I help you with?",
+        "Welcome to AI College Helpdesk!"
+      ]
+    },{
+      "tag": "college_name",
+      "patterns": [
+        "What is the name of this college?",
+        "Tell me the college name",
+        "Where am I attending?",
+        "What's the full name?"
+      ],
+      "responses": [
+        "The college is Annamacharya Institute of Technology & Sciences, Tirupati."
+      ]
     },
     {
-      "tag": "admission",
-      "patterns": ["How to apply?", "Admission process"],
-      "responses": ["You can apply online through the college website."]
+      "tag": "location",
+      "patterns": [
+        "Where is the college located?",
+        "College address?",
+        "Where is AITS Tirupati?",
+        "Campus location?"
+      ],
+      "responses": [
+        "AITS Tirupati is located in Venkatapuram, Renigunta, Tirupati, Chittoor District, Andhra Pradesh – 517520, India."
+      ]
+    },
+    {
+      "tag": "contact_details",
+      "patterns": [
+        "What are the contact numbers?",
+        "How can I contact the college?",
+        "College phone number?",
+        "Email of college?"
+      ],
+      "responses": [
+        "You can contact the college at Phone: 0877-2285609, 0877-2285608, Mobile: +91-9948149222, +91-9948661276, Emails: aitstpt@yahoo.com or aitsadmissions@gmail.com."
+      ]
+    },
+    {
+      "tag": "official_website",
+      "patterns": [
+        "College website link?",
+        "Where can I find the official site?",
+        "Website URL of college?"
+      ],
+      "responses": [
+        "The official college website is https://aits-tpt.edu.in/."
+      ]
+    },
+    {
+      "tag": "courses_offered",
+      "patterns": [
+        "What courses are available?",
+        "List the courses",
+        "What programmes does the college offer?",
+        "Courses offered by AITS?"
+      ],
+      "responses": [
+        "AITS Tirupati offers a range of programs including B.Tech (Engineering disciplines), M.Tech (various specializations), MBA and MCA. B.Tech courses include CSE, ECE, EEE, Mechanical, Civil, AI & Data Science, AIML, IoT & Cyber Security, and Data Science. M.Tech and other PG programs are also available." 
+      ]
+    },
+    {
+      "tag": "btech_fees",
+      "patterns": [
+        "What is the B.Tech fee?",
+        "How much is the tuition for B.Tech?",
+        "Fees for undergraduate program?",
+        "B.Tech program cost?"
+      ],
+      "responses": [
+        "The approximate B.Tech tuition fee at AITS Tirupati is around ₹1.6 Lakhs for the entire 4-year program." 
+      ]
+    },
+    {
+      "tag": "mtech_fees",
+      "patterns": [
+        "What is the M.Tech fee?",
+        "Fees for Master of Technology?",
+        "How much does M.Tech cost?"
+      ],
+      "responses": [
+        "The approximate M.Tech tuition fee is around ₹1 Lakh for the full 2-year program." 
+      ]
+    },
+    {
+      "tag": "mba_mca_fees",
+      "patterns": [
+        "Fees for MBA?",
+        "How much for MCA?",
+        "MBA tuition cost?",
+        "MCA course fees?"
+      ],
+      "responses": [
+        "The MBA and MCA programs at AITS Tirupati cost approximately ₹60,000 to ₹70,000 for the entire duration." 
+      ]
+    },
+    {
+      "tag": "admission_process",
+      "patterns": [
+        "How do I apply for admission?",
+        "What is the admission process?",
+        "Admission steps?",
+        "Apply to college?"
+      ],
+      "responses": [
+        "Admission details and application forms are available on the official college website under the Admissions section. You may need to participate in entrance tests such as EAPCET/APICET for eligibility." 
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "Tell me about placements",
+        "Placement details?",
+        "How are placements?",
+        "Placement record?"
+      ],
+      "responses": [
+        "AITS Tirupati has campus placements with a range of recruiters and placement opportunities. Detailed placement information can be found under the Campus Placements section on the college website." 
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "What events does the college have?",
+        "Tell me about college events",
+        "Upcoming events?"
+      ],
+      "responses": [
+        "The college organizes events like graduation day, professional societies activities, and other academic & cultural events listed on the Events & Gallery section of the website." 
+      ]
+    },
+    {
+      "tag": "accreditation",
+      "patterns": [
+        "Is the college accredited?",
+        "Accreditations of AITS?",
+        "Is AITS approved?"
+      ],
+      "responses": [
+        "AITS Tirupati is accredited by NAAC with grade 'A' and NBA for eligible engineering programs, and is recognized under UGC norms." 
+      ]
     }
   ]
 }
