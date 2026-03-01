@@ -10,7 +10,8 @@
         "Good evening",
         "Is anyone there?",
         "Can you help me?",
-        "Hello bot"
+        "Hello bot",
+        "Hi there"
       ],
       "responses": [
         "Hello! How can I assist you today?",
